@@ -20,10 +20,10 @@ const VideoPlayer = ({ options, onReady }) => {
       const player = playerRef.current = videojs(videoElement, options);
 
       // Initialize contrib-ads plugin first
-    //   player.ads({
-    //     debug: true,
-    //     timeout: 8000
-    //   });
+      // player.ads({
+      //   debug: true,
+      //   timeout: 8000
+      // });
       
       // Initialize IMA plugin immediately after ads plugin
       // This must happen before the player is ready
